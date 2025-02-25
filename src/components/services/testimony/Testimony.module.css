@@ -1,0 +1,133 @@
+/* General Styles */
+.Container {
+  padding: 20px 10px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.ModalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.IconButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TableContainer {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.TableCell {
+  padding: 8px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.ActionsMenu {
+  padding: 10px;
+}
+
+.ViewModalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.EditModalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.TextField {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.CloseButton {
+  background-color: #f5f5f5;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.SaveButton {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .ModalBox {
+    width: 95%;
+  }
+
+  .Heading {
+    font-size: 1.5rem;
+  }
+
+  .ButtonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TableCell {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Heading {
+    font-size: 1.2rem;
+  }
+
+  .ModalBox {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .ButtonContainer {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .TextField {
+    width: 100%;
+  }
+}

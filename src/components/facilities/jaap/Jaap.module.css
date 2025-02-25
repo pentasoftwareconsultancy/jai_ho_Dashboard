@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .Heading {
+    margin: 0;
+  }
+  
+  .AddButton {
+    font-weight: bold;
+    background-color: #1976d2;
+    color: white;
+  }
+  

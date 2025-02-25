@@ -1,0 +1,30 @@
+.Container {
+    padding: 20px;
+  }
+  
+  .HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Heading {
+    color: #4a90e2;
+  }
+  
+  .modalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .modalTitle {
+    margin-bottom: 20px;
+  }
+  

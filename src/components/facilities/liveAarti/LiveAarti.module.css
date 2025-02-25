@@ -1,0 +1,23 @@
+.Container {
+    padding: 20px;
+  }
+  
+  .HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Heading {
+    font-size: 24px;
+  }
+  
+  .ModalBox {
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,98 @@
+.Container {
+  padding: 20px;
+  background-color: #fff5e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: 0px;
+}
+
+.HeadingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Heading {
+  text-align: left;
+  color: #d32f2f;
+  margin: 0;
+}
+
+.AddButton {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.AddButton:hover {
+  background-color: #0d47a1;
+}
+
+/* Modal Styles */
+.modalBox {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto;
+  outline: none;
+}
+
+.modalTitle {
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.modalContent {
+  margin-bottom: 20px;
+}
+
+.modalButton {
+  margin-top: 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modalButton:hover {
+  background-color: #0d47a1;
+}
+
+/* Delete Confirmation Dialog */
+.dialogTitle {
+  color: #d32f2f;
+}
+
+.dialogActions button {
+  margin: 5px;
+}
+
+.dialogActions .deleteButton {
+  background-color: #d32f2f;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.dialogActions .deleteButton:hover {
+  background-color: #b71c1c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .modalBox {
+    width: 90%;
+    margin: 50px auto;
+  }
+}
